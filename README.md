@@ -87,6 +87,7 @@ RegisterNumber:212224230208
 ```
  
 **Logic symbol & Truthtable**
+
 ![Screenshot 2025-03-14 070021](https://github.com/user-attachments/assets/19fe3140-e26c-445c-bc77-f901c6636d2f)
 
 
