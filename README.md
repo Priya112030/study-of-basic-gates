@@ -5,8 +5,10 @@
 To study and verify the truth table of logic gates in Quartus II using Verilog programming.
 
 **Equipments Required:**
-
-Software – Quartus prime 
+```
+Software – Quartus prime
+Modelism Altera
+```
 
 **Theory**
 
@@ -65,15 +67,37 @@ Y= A⊕B
 **PROGRAM**
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
+```
+module EXP1(a,b,f1,f2,f3,f4,f5,f6,f7);
+input a,b;
+output f1,f2,f3,f4,f5,f6,f7;
+assign f1=a&b;
+assign f2=a|b;
+assign f3=~a;
+assign f4=~f1;
+assign f5=~f2;
+assign f6=a^b;
+assign f7=~(a^b);
+endmodule
+```
+```
 
- Developed by: RegisterNumber: 
+Developed by:PRIYA.B
+RegisterNumber:212224230208
+```
  
 **Logic symbol & Truthtable**
+![Screenshot 2025-03-14 070021](https://github.com/user-attachments/assets/19fe3140-e26c-445c-bc77-f901c6636d2f)
+
 
 **RTL realization Output:** 
+![Screenshot 2025-03-07 023506](https://github.com/user-attachments/assets/f87f7f3b-223f-4fab-b130-d40e4fe0d057)
+
 
 **RTL**
+![EXP1](https://github.com/user-attachments/assets/722c55a0-a54f-498c-b9f6-74bc3f4a2a9f)
 
 **Result:**
+The truth table of logic gates in Quartus II using Verilog programming is verified
 
 
